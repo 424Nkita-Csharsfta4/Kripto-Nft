@@ -1,0 +1,434 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 65%;
+  height: 40%;
+  margin-top: 2%;
+}
+
+.container .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.container .nav-link .link-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.container .nav-link .log {
+  width: 100%;
+  height: 65%;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+
+.container .nav-link .link-li {
+  padding-top: 10%;
+}
+
+.container .nav-link .link-li.t {
+  margin-top: 2%;
+}
+
+.container .nav-link .link-l {
+  padding-top: 5%;
+}
+
+.container .nav-link .link-li.l {
+  margin-left: 2%;
+  margin-top: 9%;
+  width: 5%;
+  height: 5%;
+  border-radius: 2px;
+  padding-right: 6%;
+  border-left: 1px solid #E6E8EC;
+}
+
+.container .nav-link .link-a.big {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262F;
+}
+
+.container .nav-link .link-a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #23262F;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+}
+
+.container .nav-link .link-a.wh {
+  color: #777E91;
+}
+
+.container .header-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  height: 3%;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.container .header-input {
+  border-radius: 4px;
+  border: 2px solid #a3a7b4;
+  margin-top: 4%;
+}
+
+.container .header-btn {
+  padding-top: 3%;
+  width: 30%;
+  padding-left: 5%;
+}
+
+.container .mini {
+  width: 5%;
+  height: 5%;
+  background: #94f1d1;
+}
+
+.container .header-btn.l {
+  margin-top: 1%;
+  width: 30%;
+  height: 30%;
+}
+
+.container .btn-blue-w {
+  border-radius: 2px;
+  color: #211919;
+}
+
+.container .btn-off-black {
+  padding-left: 12%;
+}
+
+.section-subjects {
+  width: 100%;
+  height: 80%;
+  margin-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3%;
+}
+
+.section-subjects .block-subjects {
+  margin-bottom: 5%;
+  height: 50%;
+  width: 45%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-subjects .subject-p {
+  color: #777E91;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding-left: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-right: 5%;
+}
+
+.section-subjects .subject-h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #23262F;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.01em;
+}
+
+.section-subjects .btn-sub {
+  margin-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-subjects .subject-btn {
+  margin-top: 6%;
+  padding-bottom: 5%;
+  color: #23262F;
+  border: 1px solid #bbbbbc;
+  border-radius: 25px;
+  padding-top: 2%;
+  padding-bottom: 30px;
+  width: 35%;
+  height: 5px;
+  padding-left: 5%;
+}
+
+.section-subjects .subject-btn:hover {
+  color: white;
+  background: #000000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.section-subjects .block-obvertka {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-centre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120%;
+}
+
+.about-section-nft {
+  margin-bottom: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+}
+
+.about-section-nft .block-about-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  margin-top: 0;
+  width: 50%;
+  height: 65%;
+  padding-left: 5%;
+}
+
+.about-section-nft .block-section-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-section-nft .price-nft-h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #23262F;
+}
+
+.about-section-nft .about-user-sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 10%;
+  width: 100%;
+}
+
+.about-section-nft .about-users-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about-section-nft .about-users-creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+}
+
+.about-section-nft .about-users-creator-sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 3%;
+  width: 50%;
+}
+
+.about-section-nft .user-create {
+  font-style: normal;
+  color: #777E91;
+  font-size: 13px;
+  padding-top: 8%;
+}
+
+.about-section-nft .about-img-user {
+  border-radius: 10px;
+}
+
+.about-section-nft .user-create-name {
+  font-size: 16px;
+  color: #23262F;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 6%;
+}
+
+.about-section-nft .card.border-dark.mb-3.c {
+  width: 40%;
+  border: 1px solid rgba(175, 175, 175, 0);
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .card-p.p {
+  color: #c3c6ce;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .card-header.f {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .card-text.s {
+  color: #777E91;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .card-text.s.g {
+  color: #23262F;
+  font-size: 16px;
+  padding-top: 3%;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .card-ul, .about-section-nft .card.border-dark.mb-3.c .card-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .sum {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.about-section-nft .card.border-dark.mb-3.c .time {
+  color: #777E91;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.about-section-nft .btn.btn-primary.bl {
+  border-radius: 10px;
+  border: none;
+}
+
+.about-section-nft .btn.btn-primary.gr {
+  border: 1px dotted #bbbbbc;
+  background-color: #777E91;
+}
+
+.ngt {
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */
